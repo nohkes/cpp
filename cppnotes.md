@@ -1,3 +1,3 @@
 # **Basic C ++ Concepts**
-![Screenshot](./Pictures/cpp-basic.png)
+![Screenshot](./Pictures/cpp-basic.jpeg)
 
