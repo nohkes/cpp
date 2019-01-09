@@ -15,12 +15,12 @@ bool: truth values (true false);
 
 ## Arithmetic Operators 
 
-&rarr; + addition;
+&rarr; + addition<br>
 &rarr; - subtraction;
 &rarr; * multiplication;
 &rarr; +/ division;
 &rarr; % modulo which gives remainder;
-p&rarr; ow () is exponents (7.0, 3.0) = 343; 
+&rarr; pow () is exponents (7.0, 3.0) = 343; 
 
 ### input and output
 We have cout for output, and there is something called cin is used for input!
