@@ -24,9 +24,10 @@ bool: truth values (true false)<br>
 
 ### input and output
 We have cout for output, and there is something called cin is used for input!
-
+```cpp
 string password;
 
 std::cout << "Enter your password: ";
 std::cin >> password;
 std:: cout << "Your password is " << password "\n";
+```
