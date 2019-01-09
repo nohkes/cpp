@@ -6,13 +6,13 @@ https://courses.cs.washington.edu/courses/cse373/99au/unix/g++.html
 
 ## Variables
 
-**Type: Usage (Examples)**<br>
-
-int: integer numbers (0 , 420)<br>
-double: floating-point numberw (3.14, -200.0)<br>
-char: characters ('a, '@')<br>
-string: sequence of characters ("Hello Worlds!, "Hi")<br>
-bool: truth values (true false)<br>
+| Type   | Usage                  | Examples     |
+|--------|:-----------------------|--------------|
+|int     | integer numbers        | 0 , 420      |
+|double  | floating-point number  | 3.14, -200.0 |
+|char    | characters             |'a, '@'       |
+|string  | sequence of characters | "Hello World!|
+|bool    | truth values           | true false   |
 
 ## Arithmetic Operators 
 
