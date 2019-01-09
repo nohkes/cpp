@@ -6,21 +6,21 @@ https://courses.cs.washington.edu/courses/cse373/99au/unix/g++.html
 
 ## Variables
 
-Type: Usage (Examples)
-int: integer numbers (0 , 420)
-double: floating-point numberw (3.14, -200.0)
-char: characters ('a, '@')
-string: sequence of characters ("Hello Worlds!, "Hi")
-bool: truth values (true false)
+Type: Usage (Examples);
+int: integer numbers (0 , 420);
+double: floating-point numberw (3.14, -200.0);
+char: characters ('a, '@');
+string: sequence of characters ("Hello Worlds!, "Hi");
+bool: truth values (true false);
 
 ## Arithmetic Operators 
 
-+ addition
-- subtraction
-* multiplication
-/ division
-% modulo which gives remainder
-pow () is exponents (7.0, 3.0) = 343 
+&rarr; + addition;
+&rarr; - subtraction;
+&rarr; * multiplication;
+&rarr; +/ division;
+&rarr; % modulo which gives remainder;
+p&rarr; ow () is exponents (7.0, 3.0) = 343; 
 
 ### input and output
 We have cout for output, and there is something called cin is used for input!
