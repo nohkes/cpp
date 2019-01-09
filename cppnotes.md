@@ -7,7 +7,7 @@ https://courses.cs.washington.edu/courses/cse373/99au/unix/g++.html
 ## Variables
 
 Type: Usage (Examples)<br>
------------------------------
+
 int: integer numbers (0 , 420)<br>
 double: floating-point numberw (3.14, -200.0)<br>
 char: characters ('a, '@')<br>
