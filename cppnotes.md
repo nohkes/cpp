@@ -33,3 +33,54 @@ std::cin >> password;
 std:: cout << "Your password is " << password "\n";
 ```
 
+## Relational Operators
++ == equal to
++ != not equal to
++ > greater than
++ < less than
++ >= greater than or equal to
++ <= less than or equal to
+
+## if, if else and else Statements
+
+```cpp
+ double ph = 4.6;  
+  
+  if (ph > 7)
+  {
+    std::cout << "Basic\n";
+  }
+  else if (ph < 7)
+  {
+    std::cout << "Acidic\n";
+  }
+  else 
+  {
+    std::cout << "Neutral\n";
+  }
+```
+
+## Switch Statements
+
+```cpp
+
+switch (grade) {
+
+  case 9:
+    std::cout << "Freshman\n";
+    break;
+  case 10:
+    std::cout << "Sophomore\n";
+    break;
+  case 11:
+    std::cout << "Junior\n";
+    break;
+  case 12:
+    std::cout << "Senior\n";
+    break;
+  default:
+    std::cout << "Invalid\n";
+    break;
+
+}
+```
