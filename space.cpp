@@ -28,7 +28,7 @@ int main() {
       weight = 0;
       break;
   }
-  std::cout << " Your weight is: " << weight"\n";
+  std::cout << " Your weight is: " << weight << "\n";
   
   
 }
