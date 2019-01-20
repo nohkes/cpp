@@ -1,0 +1,45 @@
+Chapter 2
+
+1. What is the purpose of the “Hello, World!” program?
+2. Name the four parts of a function.
+3. Name a function that must appear in every C++ program.
+4. In the “Hello, World!” program, what is the purpose of the line return 0;?
+5. What is the purpose of the compiler?
+6. What is the purpose of the #include directive?
+7. What does a .h suffix at the end of a file name signify in C++?
+8. What does the linker do for your program?
+9. What is the difference between a source file and an object file?
+10. What is an IDE and what does it do for you?
+11. If you understand everything in the textbook, why is it necessary to practice?
+
+Answers :
+1: To get started and give you a feel of how you can get a computer to do things for you.
+2: Return Type( ie int main()), Name, Parameter and function body( ie statements in the { }, that the function is to perform)
+3: int main()
+4: A zero returned by the function indicates that the program has successfully terminated
+5: The compiler takes source code and converts it into object code aka executable, that the computer can read
+6. includes directive instructs the computer to make a library/facility available.
+7: .h signifies its a header file. A header contains definitions of terms such as std::cout.
+8: once the compiler converts the source code to object code the linker links the object code to the library included.<iostream>
+9: source is written and read by people the object file is converted from the source file by the compiler and is used by the computer to execute.
+10: IDE is the interactive developer environment.  these are the tools we use to implement code. ie text editor, compiler.
+11: develop critical thinking, and reinforce skill.
+
+C ++ - Computer language
+comment - two forward slashes used to write words that the compiler ignores and only people can read.
+compile-time error - an error with the source code.
+cout - stands for character output,
+executable - a program ready to be run/executed on a computer.
+function - code that can be invoked (called) from different parts of a program
+header a file containing declarations used to share interfaces between parts of a program
+IDE - interactive developer environment. tools used to implement code
+#include - instructs the computer to make available (“to include”) facilities from a library.
+library - is simple code written by others that we are accessing using declarations found in an included.
+linker - program that links the object code to the declared library.
+main() - function used in every cpp file
+object code - the code that the compiler translates source code to
+output - values produced by computations.
+program - set of instructions/code for the computer to execute
+source code - written by people.
+statement - set of values.
+
