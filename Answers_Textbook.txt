@@ -43,3 +43,101 @@ program - set of instructions/code for the computer to execute
 source code - written by people.
 statement - set of values.
 
+Chapter 3
+
+1. What is meant by the term prompt?
+2. Which operator do you use to read into a variable?
+3. If you want the user to input an integer value into your program for a variable named number, what are two lines of
+code you could write to ask the user to do it and to input the value into your program?
+4. What is \n called and what purpose does it serve?
+5. What terminates input into a string?
+6. What terminates input into an integer?
+7. How would you write
+cout << "Hello, ";
+cout << first_name;
+cout << "!\n";
+as a single line of code?
+8. What is an object?
+9. What is a literal?
+10. What kinds of literals are there?
+11. What is a variable?
+12. What are typical sizes for a char, an int, and a double?
+13. What measures do we use for the size of small entities in memory, such as ints and strings?
+14. What is the difference between = and ==?
+15. What is a definition?
+16. What is an initialization and how does it differ from an assignment?
+17. What is string concatenation and how do you make it work in C++?
+18. Which of the following are legal names in C++? If a name is not legal, why not?
+Click here to view code image
+This_little_pig This_1_is fine 2_For_1_special
+latest thing the_$12_method _this_is_ok
+MiniMineMine number correct?
+19. Give five examples of legal names that you shouldn’t use because they are likely to cause confusion.
+20. What are some good rules for choosing names?
+21. What is type safety and why is it important?
+22. Why can conversion from double to int be a bad thing?
+23. Define a rule to help decide if a conversion from one type to another is safe or unsafe.
+
+Answers : 
+1. Prompt is when a program asks for an input/action
+2. >>
+3. declare the variable, then cin>>variable
+4. \n is a special character indicating a newline. 
+5. whitespace
+6. whitespace
+7. std::cout << "Hello, " << first_name << "!\n";
+8. an object is space in memory to hold data.
+9. A literal is some data that's presented directly in the code, rather than indirectly through a variable or function call.
+10. types of literals 
+        int: 39
+        double: 40.2
+        char: 'm'
+        string: "hello"
+        bool: true
+11. a variable is a named object(Which are "places" in which we store data.)
+12. typical sizes for types
+        int: 4 bytes(32 bits)
+        bool: 1 byte (8 bits)
+        char: 1 byte (8 bits)
+        double: 8 byte (64 bits)
+13. a bit
+14. = assigns a value == compares values
+15. a definition gives a value to a variable.
+16. initialization is the first value given to a variable when it is declared, assignment changes the initial value to something else.
+17. string concatenation is the combination of two seperate strings into one string using the + operator.
+18. latest thing and 2_For_1_special, the_$12_method, correct? are not legal due to containing numbers and special characters.
+19. 
+    - single characters like a, b, c
+    - long words supercalifragilistic
+    - number or character 
+    - abbreviations like yolo
+    - all caps ALL_CAPS used for macros.
+20. when choosing names use descriptive names to describe the values you are using ie first_name;
+21. type safety is when objects are used according to the rules of their type.
+22. conversion form double to int will always round the decimal place down and not follow the 4/5 rule.
+23. So what should you do if you think that a conversion might lead to a bad value? Use {} initializers to avoid accidents, and
+when you want a conversion, check the value before assigning
+double x {2.7}; // OK
+int y {x}; // error: double -> int might narrow
+int a {1000}; // OK
+char b {a}; // error: int -> char might narrow
+
+
+assignment - gives a variable a new value.
+CIN - stands for character input.
+concatenation - combination of two strings into one.
+conversion - changing one type of data to another.
+declaration - a statement that gives a name to an object.
+decrement - a decreasing interval
+definition - a statement that introduces a new name into a program and sets aside memory for a variable.
+increment - an increasing interval.
+initialization - giving a variable its initial value 
+name - is the set if characters give to a named object(variable), and is necessary in order to access it.
+narrowing - a conversion that puts a value into an object that maybe too small to hold it.
+object - place in memory to store values.
+operation - condition of functioning or being active.
+operator - We can define operators as symbols that helps us to perform specific mathematical and logical computations on operands
+type - values that define an object
+type safety - Type safety means that the compiler can check whether you're using the right types
+value - data/set of bits in memory
+variable - a named object

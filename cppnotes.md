@@ -115,3 +115,9 @@ switch (grade) {
   The initialization of a counter ```cpp int i = 0; ```
   The condition: ```cpp i < 20; ```
   The incrementor/decrementor ```cpp i++  ```
+
+
+
+
+#### Random notes
+  - double-to-int conversion truncates (always rounds down, toward zero)
