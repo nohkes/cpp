@@ -8,29 +8,29 @@ int main(){
 
 
     std::cout << "Please Enter 2 numbers : \n";
-    double one, two; 
+    double one;
+    double big = 0;
+    double small = 0; 
     
-    while(std::cin >> one >> two)
+    while(std::cin >> one)
     // std::cout << std::abs(one - two) << "\n";
-    if (one < two)
+    if (one > big)
     {
-    std::cout << "The smaller number is: " << one << "\n";
-    std::cout << "The larger number is: " << two << "\n";
+        big = one;
+        std::cout << "The largest number so far is: " << big << "\n";
+        
     }
-    else if (one == two) {
-        std::cout << "The numbers are equal\n";
-    }
-    else if ((std::abs(one - two)) < 0.01) {
-        std::cout << "the numbers are almost equal\n";
+    else if (one < big)
+    {
+        small = one;
+        std::cout << "The smallest number so far is: " << small << "\n";
+        
     }
     
-    else
-    {
-        std::cout << "The smaller number is: " << two << "\n";
-        std::cout << "The larger number is: " << one << "\n";
+    else if (small < one && one > big) {
+        std::cout << one <<"\n";
     }
     
-
 
     return 0;
 }
